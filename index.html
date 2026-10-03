@@ -7,7 +7,6 @@
     <title>Rocket League - Gorxxik_</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
@@ -16,54 +15,77 @@
 <body>
 
     <header>
+
         <div>
+
             <span>Gorxxik_</span>
 
             <h1>ROCKET<br>LEAGUE</h1>
 
             <p>Moje Rocket League statistiky</p>
 
-            <nav>
+            <button class="menu-tlacitko" onclick="otevriMenu()">☰</button>
+
+            <nav id="menu">
+
                 <a class="button" href="#hra">O hře</a>
+
                 <a class="button" href="#auto">Moje auto</a>
+
                 <a class="button" href="#statistiky">Moje statistiky</a>
+
                 <a class="button" href="#rank">Můj rank</a>
+
             </nav>
+
         </div>
 
         <img src="logo_rl.jpg" alt="Logo Rocket League" width="500" height="200">
+
     </header>
 
+
     <section id="hra">
+
         <h2>O hře</h2>
+
         <hr>
 
         <div class="grid">
 
             <div class="box">
+
                 <p>
                     Rocket League je sportovní videohra, ve které hráči
                     ovládají auta a snaží se dostat míč do soupeřovy branky.
                 </p>
+
             </div>
 
             <div class="box">
+
                 <p>
                     Hra kombinuje fotbal s auty a umožňuje hrát například
                     1v1, 2v2 nebo 3v3.
                 </p>
+
             </div>
 
         </div>
+
     </section>
 
+
     <section id="auto">
+
         <h2>Moje auto</h2>
+
         <hr>
 
         <div class="box car">
 
             <div>
+
                 <h3>Fennec</h3>
 
                 <p>
@@ -73,16 +95,22 @@
                 </p>
 
                 <span class="chip">Black Fennec</span>
+
                 <span class="chip">Tmavě červená</span>
+
             </div>
 
             <img src="original_fennec.png" alt="Moje auto Fennec v Rocket League" width="800" height="450">
 
         </div>
+
     </section>
 
+
     <section id="statistiky">
+
         <h2>Moje statistiky</h2>
+
         <hr>
 
         <p>
@@ -132,10 +160,14 @@
             </div>
 
         </div>
+
     </section>
 
+
     <section id="rank">
+
         <h2>Můj rank</h2>
+
         <hr>
 
         <p>
@@ -152,6 +184,7 @@
             </tr>
 
             <tr>
+
                 <td>Duel 1v1</td>
 
                 <td>
@@ -163,9 +196,11 @@
                     <img src="gold2.webp" alt="Gold II" class="rank-icon">
                     Gold II
                 </td>
+
             </tr>
 
             <tr>
+
                 <td>Doubles 2v2</td>
 
                 <td>
@@ -177,9 +212,11 @@
                     <img src="diamond1.webp" alt="Diamond I" class="rank-icon">
                     Diamond I
                 </td>
+
             </tr>
 
             <tr>
+
                 <td>Standard 3v3</td>
 
                 <td>
@@ -191,10 +228,13 @@
                     <img src="platinum2.webp" alt="Platinum II" class="rank-icon">
                     Platinum II
                 </td>
+
             </tr>
 
         </table>
+
     </section>
+
 
     <footer>
 
@@ -207,6 +247,15 @@
         </a>
 
     </footer>
+
+
+    <script>
+
+        function otevriMenu() {
+            document.getElementById("menu").classList.toggle("otevrene");
+        }
+
+    </script>
 
 </body>
 
