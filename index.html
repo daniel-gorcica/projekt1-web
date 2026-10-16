@@ -2,276 +2,278 @@
 <html lang="cs">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Rocket League - Gorxxik_</title>
 
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@400;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <header>
-
         <div>
-
             <span>Gorxxik_</span>
-
             <h1>ROCKET<br>LEAGUE</h1>
-
             <p>Moje Rocket League statistiky</p>
 
             <button class="menu-tlacitko" onclick="otevriMenu()">☰</button>
 
             <nav id="menu">
-
-                <a class="tlacitko" href="#hra">O hře</a>
-
-                <a class="tlacitko" href="#auto">Moje auto</a>
-
-                <a class="tlacitko" href="#statistiky">Moje statistiky</a>
-
-                <a class="tlacitko" href="#rank">Můj rank</a>
-
+                <a class="tlacitko" href="#hra">⚽ O hře</a>
+                <a class="tlacitko" href="#auto">🚗 Moje auto</a>
+                <a class="tlacitko" href="#statistiky">📊 Statistiky</a>
+                <a class="tlacitko" href="#rank">🏆 Můj rank</a>
+                <a class="tlacitko" href="#cesta">🛤️ Moje cesta</a>
             </nav>
-
         </div>
 
-        <img src="logo_rl.jpg" alt="Logo Rocket League" width="500" height="200">
-
+        <img src="images/logo_rl.jpg" alt="Logo Rocket League" width="500" height="200">
     </header>
 
 
-    <section id="hra">
-
-        <h2>O hře</h2>
-
+    <!-- O HŘE -->
+    <section id="hra" class="reveal">
+        <h2>⚽ O hře</h2>
         <hr>
-
         <div class="mrizka">
-
             <div class="box">
-
                 <p>
                     Rocket League je sportovní videohra, ve které hráči
                     ovládají auta a snaží se dostat míč do soupeřovy branky.
                 </p>
-
             </div>
-
             <div class="box">
-
                 <p>
                     Hra kombinuje fotbal s auty a umožňuje hrát například
                     1v1, 2v2 nebo 3v3.
                 </p>
-
             </div>
-
         </div>
-
     </section>
 
 
-    <section id="auto">
-
-        <h2>Moje auto</h2>
-
+            <!-- MOJE AUTO -->
+    <section id="auto" class="reveal">
+        <h2>🚗 Moje auto</h2>
         <hr>
 
-        <div class="box auto">
-
-            <div>
-
+        <div class="auto-garaz">
+            <div class="auto-text">
+                <p class="auto-label">▶ HLAVNÍ VOZIDLO</p>
                 <h3>Fennec</h3>
-
                 <p>
                     Moje oblíbené auto v Rocket League je Black Fennec
                     v tmavě červené barvě. Toto auto je velmi populární
-                    mezi hráči.
+                    mezi hráči a já ho používám na každý zápas.
                 </p>
-
-                <span class="stitek">Black Fennec</span>
-
-                <span class="stitek">Tmavě červená</span>
-
+                <div class="stitky">
+                    <span class="stitek">🖤 Black Fennec</span>
+                    <span class="stitek">🔴 Tmavě červená</span>
+                    <span class="stitek">⭐ Moje hlavní auto</span>
+                </div>
             </div>
 
-            <img src="original_fennec.png" alt="Moje auto Fennec v Rocket League" width="800" height="450">
-
+            <div class="auto-foto">
+                <img src="images/original_fennec.png" alt="Moje auto Fennec v Rocket League">
+            </div>
         </div>
-
     </section>
 
 
-    <section id="statistiky">
-
-        <h2>Moje statistiky</h2>
-
+    <!-- STATISTIKY -->
+    <section id="statistiky" class="reveal">
+        <h2>📊 Moje statistiky</h2>
         <hr>
-
         <p>
             Toto jsou moje celkové statistiky v Rocket League.
         </p>
-
         <div class="statistiky">
-
             <div class="statistika">
-                <h3>990</h3>
+                <h3>1,223</h3>
                 <p>Wins</p>
             </div>
-
             <div class="statistika">
-                <h3>2 838</h3>
+                <h3>3,400</h3>
                 <p>Goals</p>
             </div>
-
             <div class="statistika">
-                <h3>830</h3>
+                <h3>1,072</h3>
                 <p>Assists</p>
             </div>
-
             <div class="statistika">
-                <h3>2 326</h3>
+                <h3>2,774</h3>
                 <p>Saves</p>
             </div>
-
             <div class="statistika">
-                <h3>402</h3>
+                <h3>488</h3>
                 <p>MVPs</p>
             </div>
-
             <div class="statistika">
-                <h3>6 108</h3>
+                <h3>7,257</h3>
                 <p>Shots</p>
             </div>
-
             <div class="statistika">
-                <h3>46,5 %</h3>
+                <h3>46.9 %</h3>
                 <p>Goal Shot Ratio</p>
             </div>
-
             <div class="statistika">
-                <h3>269 784,8</h3>
+                <h3>338,876.8</h3>
                 <p>TRN Score</p>
             </div>
-
         </div>
-
     </section>
 
 
-    <section id="rank">
-
-        <h2>Můj rank</h2>
-
+    <!-- MŮJ RANK -->
+    <section id="rank" class="reveal">
+        <h2>🏆 Můj rank</h2>
         <hr>
-
         <p>
             Moje aktuální a nejlepší dosažené ranky v jednotlivých
             herních režimech.
         </p>
 
         <table>
-
             <tr>
                 <th>Herní režim</th>
                 <th>Current rank</th>
                 <th>Best rank</th>
             </tr>
-
             <tr>
-
                 <td>Duel 1v1</td>
-
                 <td>
-                    <img src="gold2.webp" alt="Gold II" class="ikona-ranku">
-                    Gold II
+                    <img src="images/gold3.webp" alt="Gold III" class="ikona-ranku">
+                    Gold III
                 </td>
-
                 <td>
-                    <img src="gold2.webp" alt="Gold II" class="ikona-ranku">
-                    Gold II
+                    <img src="images/gold3.webp" alt="Gold III" class="ikona-ranku">
+                    Gold III
                 </td>
-
             </tr>
-
             <tr>
-
                 <td>Doubles 2v2</td>
-
                 <td>
-                    <img src="platinum2.webp" alt="Platinum II" class="ikona-ranku">
-                    Platinum II
-                </td>
-
-                <td>
-                    <img src="diamond1.webp" alt="Diamond I" class="ikona-ranku">
+                    <img src="images/diamond1.webp" alt="Diamond I" class="ikona-ranku">
                     Diamond I
                 </td>
-
+                <td>
+                    <img src="images/diamond2.webp" alt="Diamond II" class="ikona-ranku">
+                    Diamond II
+                </td>
             </tr>
-
             <tr>
-
                 <td>Standard 3v3</td>
-
                 <td>
-                    <img src="platinum2.webp" alt="Platinum II" class="ikona-ranku">
+                    <img src="images/platinum2.webp" alt="Platinum II" class="ikona-ranku">
                     Platinum II
                 </td>
-
                 <td>
-                    <img src="platinum2.webp" alt="Platinum II" class="ikona-ranku">
+                    <img src="images/platinum2.webp" alt="Platinum II" class="ikona-ranku">
                     Platinum II
                 </td>
-
             </tr>
-
         </table>
+    </section>
 
+
+    <!-- MOJE CESTA (Timeline) -->
+    <section id="cesta" class="reveal">
+        <h2>🛤️ Moje cesta</h2>
+        <hr>
+        <p>
+            Jak jsem se v Rocket League posouval od začátečníka až tam, kde jsem teď.
+        </p>
+
+        <div class="timeline">
+            <div class="timeline-polozka">
+                <div class="timeline-rok">2024</div>
+                <div class="timeline-text">
+                    <h4>Začal jsem hrát</h4>
+                    <p>První zápasy, první góly, první prohry. Zamiloval jsem se do té hry.</p>
+                </div>
+            </div>
+            <div class="timeline-polozka">
+                <div class="timeline-rok">2024</div>
+                <div class="timeline-text">
+                    <h4>První Platinum</h4>
+                    <p>Po roce tréninku jsem se poprvé dostal do Platinum ranku v 2v2.</p>
+                </div>
+            </div>
+            <div class="timeline-polozka">
+                <div class="timeline-rok">2026</div>
+                <div class="timeline-text">
+                    <h4>Diamond v 2v2</h4>
+                    <p>Nejlepší rank, který jsem kdy měl. Cesta k němu byla dlouhá, ale stálo to za to.</p>
+                </div>
+            </div>
+            <div class="timeline-polozka">
+                <div class="timeline-rok">2026</div>
+                <div class="timeline-text">
+                    <h4>1000. výhra</h4>
+                    <p>Překročil jsem metu 1000 vítězných zápasů. Pořád mě to baví jako na začátku.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
 
     <footer>
+        <p class="paticka-text">© 2026 Rocket League Fan Web · Vytvořil <strong>Daniel Gorčica</strong></p>
 
-        <a href="https://validator.w3.org/check?uri=https://daniel-gorcica.github.io/projekt1-web/">
+        <div class="paticka-validatory">
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fdaniel-gorcica.github.io%2Fprojekt1-web%2F"
+                target="_blank" rel="noopener" title="Zkontrolovat HTML">
+                <span class="validator-ikona">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                </span>
+                <span>HTML5</span>
+            </a>
 
-            <img src="https://www.w3.org/Icons/valid-html401"
-                 alt="Valid HTML"
-                 height="31"
-                 width="88">
-
-        </a>
-
-        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://daniel-gorcica.github.io/projekt1-web/">
-
-            <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-                 alt="Valid CSS"
-                 height="31"
-                 width="88">
-
-        </a>
-
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdaniel-gorcica.github.io%2Fprojekt1-web%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=cs"
+                target="_blank" rel="noopener" title="Zkontrolovat CSS">
+                <span class="validator-ikona">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                </span>
+                <span>CSS3</span>
+            </a>
+        </div>
     </footer>
 
 
     <script>
-
+        // === 1. OTEVŘENÍ / ZAVŘENÍ MOBILNÍHO MENU ===
         function otevriMenu() {
-
             document.getElementById("menu").classList.toggle("otevrene");
-
         }
 
+        // === 2. FADE-UP ANIMACE PŘI SCROLLU ===
+        document.documentElement.classList.add('js');
+
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.15
+        });
+
+        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
     </script>
 
 </body>
