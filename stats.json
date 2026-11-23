@@ -1,0 +1,63 @@
+{
+    "aktualizovano": "23. 11. 2026",
+    "statistiky": {
+        "Wins": "1,407",
+        "Goals": "3,795",
+        "Assists": "1,256",
+        "Saves": "3,123",
+        "MVPs": "559",
+        "Shots": "8,114",
+        "Goal Shot Ratio": "46.8 %",
+        "TRN Score": "394,097.9"
+    },
+    "peak": {
+        "ikona": "images/diamond3.webp",
+        "nazev": "Diamond III",
+        "rating": "989",
+        "popis": "Ranked Doubles 2v2 · Season 38"
+    },
+    "ranky": {
+        "Duel 1v1": {
+            "aktualni": {
+                "ikona": "images/gold3.webp",
+                "nazev": "Gold III",
+                "rating": "592",
+                "poznamka": "Bottom 37.0%"
+            },
+            "nejlepsi": {
+                "ikona": "images/gold3.webp",
+                "nazev": "Gold III",
+                "rating": "592",
+                "poznamka": "Season 38"
+            }
+        },
+        "Doubles 2v2": {
+            "aktualni": {
+                "ikona": "images/diamond3.webp",
+                "nazev": "Diamond III",
+                "rating": "1008",
+                "poznamka": "Top 41.0%"
+            },
+            "nejlepsi": {
+                "ikona": "images/champ1.png",
+                "nazev": "Champion I",
+                "rating": "1081",
+                "poznamka": "Season 38"
+            }
+        },
+        "Standard 3v3": {
+            "aktualni": {
+                "ikona": "images/platinum2.webp",
+                "nazev": "Platinum II",
+                "rating": "742",
+                "poznamka": "Bottom 50.0%"
+            },
+            "nejlepsi": {
+                "ikona": "images/platinum2.webp",
+                "nazev": "Platinum II",
+                "rating": "742",
+                "poznamka": "Season 38"
+            }
+        }
+    }
+}

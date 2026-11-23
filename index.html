@@ -87,6 +87,8 @@
         <p>
             Toto jsou moje celkové statistiky v Rocket League.
         </p>
+        <p id="aktualizace"></p>
+
         <div class="statistiky">
             <div class="statistika">
                 <h3>1,407</h3>
@@ -130,11 +132,12 @@
             Moje aktuální a nejlepší dosažené ranky v jednotlivých
             herních režimech.
         </p>
-        <p>
+        <p id="peak">
             Peak rating:
             <img src="images/diamond3.webp" alt="Diamond III" class="ikona-ranku">
             <strong>989</strong> · Ranked Doubles 2v2 · Season 38
         </p>
+
 
         <table>
             <tr>
@@ -283,6 +286,7 @@
 
         document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
     </script>
+    <script src="stats.js"></script>
 
 </body>
 
