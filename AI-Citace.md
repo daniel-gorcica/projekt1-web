@@ -22,6 +22,7 @@
   - Návrh herních designových prvků (neonový glow, barevné statistiky, timeline, rotující míč)
   - Pomoc s mobilní responzivitou (hamburger menu)
   - Code review a optimalizace
+  - Úklid kódu (odstranění nepoužívaného Bootstrapu a CSS), nové animace (počítání čísel, progress bar, aktivní menu)
 
 ## Co jsem vytvořil sám
 
